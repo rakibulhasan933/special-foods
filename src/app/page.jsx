@@ -12,7 +12,7 @@ export default async function Home() {
 
   return (
     <div className="m-20">
-      <h1>Hello</h1>
+      <h1>Hello I am Next.js Developer</h1>
       <Link href="/foods">Go to Foods</Link>
       <div className="grid grid-cols-3 gap-4">
         {
