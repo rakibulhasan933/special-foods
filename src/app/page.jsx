@@ -11,10 +11,10 @@ export default async function Home() {
   const data = await getFoods();
 
   return (
-    <div className="m-20">
+    <div className="m-10 md:m-20 lg:m-[120px]">
       <h1>Hello I am Next.js Developer</h1>
       <Link href="/foods">Go to Foods</Link>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid  md:grid-cols-3 lg:grid-cols-4 grid-cols-1  gap-4">
         {
           data.map((food, index) => (
             <div key={index} className="border-2 border-green-400 p-5">
